@@ -1,6 +1,6 @@
 # Ex02 Time Table
 ## Date:
-17/11/2026
+20/11/2026
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -30,69 +30,61 @@ Execute the program using runserver command.
 ```
 <html>
 <head>
-<title>Slot Time Table</title>
+<title>Time Table</title>
 </head>
-<body>
 <center>
-<img  src="logo.png" width="600" height="120">
-<h2 align="center">SLOT TIME TABLE - KARTHIKEYAN J (26009634)</h2>
+<img src="/static/logo.png" height="100" width="520">
+</center>
+<body>
 
-<table border="1" cellpadding="8" align="center">
-<tr bgcolor="yellow">
-  <th>Day/Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+<h2>TIME TABLE - KARTHIKEYAN J (26009634)</h2>
+
+<table border="1">
+<tr>
+  <th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
 </tr>
 <tr>
-  <td bgcolor="yellow">8:00-9:30</td>
-  <td bgcolor="#bfe3ff">PY</td><td bgcolor="#bfe3ff">PY</td><td bgcolor="#bfe3ff">PY</td>
-  <td bgcolor="#ddd">FREE</td>
-  <td bgcolor="#c3e6b5">MATHS</td><td bgcolor="#c3e6b5">MATHS</td>
+  <td>8:00-9:30</td>
+  <td>PY</td><td>PY</td><td>PY</td><td>FREE</td><td>MATHS</td><td>MATHS</td>
 </tr>
 <tr>
-  <td bgcolor="yellow">9:45-11:15</td>
-  <td bgcolor="#c3e6b5">MATHS</td><td bgcolor="#ff9fae">WEB</td>
-  <td bgcolor="#ddd">FREE</td>
-  <td bgcolor="#8fc7f5">SNM</td><td bgcolor="#ff9fae">WEB</td>
-  <td bgcolor="#ffe58a">DE</td>
+  <td>9:45-11:15</td>
+  <td>MATHS</td><td>WEB</td><td>FREE</td><td>SNM</td><td>WEB</td><td>DE</td>
 </tr>
 <tr>
-  <td bgcolor="yellow">Lunch</td>
-  <td colspan="6" align="center" bgcolor="orange">LUNCH</td>
+  <td>Lunch</td>
+  <td colspan="6">LUNCH</td>
 </tr>
 <tr>
-  <td bgcolor="yellow">1:15-2:45</td>
-  <td bgcolor="#ff9fae">WEB</td><td bgcolor="#ffe58a">DE</td>
-  <td bgcolor="#ddd">FREE</td>
-  <td bgcolor="#ffc8e6">JAP</td><td bgcolor="#ffc8e6">JAP</td>
-  <td bgcolor="#8fc7f5">SNM</td>
+  <td>1:15-2:45</td>
+  <td>WEB</td><td>DE</td><td>FREE</td><td>JAP</td><td>JAP</td><td>SNM</td>
 </tr>
 <tr>
-  <td bgcolor="yellow">3:00-4:30</td>
-  <td bgcolor="#cdb8f5">EDM</td><td bgcolor="#cdb8f5">EDM</td>
-  <td bgcolor="#a6ecd8">CDS</td>
-  <td bgcolor="#ddd">FREE</td><td bgcolor="#ddd">FREE</td><td bgcolor="#ddd">FREE</td>
+  <td>3:00-4:30</td>
+  <td>EDM</td><td>EDM</td><td>CDS</td><td>FREE</td><td>FREE</td><td>FREE</td>
 </tr>
 </table>
 
 <br>
 
-<table border="1" cellpadding="6" align="center">
-<tr><th>Code</th><th>Subject</th><th>Faculty</th></tr>
-<tr><td>19AI301</td><td>Python Programming Basics (PY)</td><td>Abhijith Sir</td></tr>
-<tr><td>19MA220</td><td>Maths for AI (MATHS)</td><td>Ramesh Kumar</td></tr>
-<tr><td>19AI414</td><td>Fundamentals of Web Application Development (WEB)</td><td>Selvakumar</td></tr>
-<tr><td>19EE404</td><td>Digital Electronics (DE)</td><td>Karthiga</td></tr>
-<tr><td>19AI302</td><td>Engineering Design &amp; Modelling (EDM)</td><td>Madhusakumar</td></tr>
-<tr><td>19EY708</td><td>Career Development Skills (CDS)</td><td>Nimisha John</td></tr>
-<tr><td>19GE624</td><td>Japanese NS Basic (JAP)</td><td>Subashini</td></tr>
-<tr><td>19MA211</td><td>Statistics &amp; Numerical (SNM)</td><td>Kuppan</td></tr>
+<table border="1">
+<tr><th>Code</th><th>Subject</th></tr>
+<tr><td>4M5-1</td><td>Python Programming Basics (PY)</td></tr>
+<tr><td>5W1-1</td><td>Maths for AI (MATHS)</td></tr>
+<tr><td>2U1-1</td><td>Fundamentals of Web Application Development (WEB)</td></tr>
+<tr><td>4Y3-1</td><td>Digital Electronics (DE)</td></tr>
+<tr><td>4F3-1</td><td>Engineering Design &amp; Modelling (EDM)</td></tr>
+<tr><td>2U5-1</td><td>Career Development Skills (CDS)</td></tr>
+<tr><td>5V3-1</td><td>Japanese NS Basic (JAP)</td></tr>
+<tr><td>2C1-2</td><td>Statistics &amp; Numerical (SNM)</td></tr>
 </table>
-</center>
+
 </body>
 </html>
 ```
 
 ## OUTPUT
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
